@@ -3,4 +3,4 @@ heroku-buildpack-libpng
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for vendoring the ImageMagick binaries into your project.
 
-Set the version using the LIBJPEG_VERSION env var in your environment.
+Updated to newest version of libpng (1.2.6) so individual does not have to type in environment variables. 
