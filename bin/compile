@@ -19,8 +19,9 @@ if [ ! -f $CACHE_FILE ]; then
   LIBPNG_FILE="libpng-$LIBPNG_VERSION.tar.gz"
   LIBPNG_DIR="libpng-$LIBPNG_VERSION"
   # SSL cert used on libpng not recognized by heroku.
+  # current version for compilation 
   LIBPNG_URL="
-  http://iweb.dl.sourceforge.net/project/libpng/libpng16/$LIBPNG_VERSION/libpng-$LIBPNG_VERSION.tar.gz"
+  https://sourceforge.net/projects/libpng/files/libpng16/1.6.25/libpng-1.6.25.tar.gz"
 
   echo "-----> Downloading libpng from $LIBPNG_URL"
   wget $LIBPNG_URL -P $BUILD_DIR | indent
