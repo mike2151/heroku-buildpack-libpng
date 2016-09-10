@@ -16,8 +16,8 @@ CACHE_FILE="$CACHE_DIR/libpng.tar.gz"
 if [ ! -f $CACHE_FILE ]; then
   # install libpng
   LIBPNG_VERSION="${LIBPNG_VERSION:-1.6.21}"
-  LIBPNG_FILE="libpng-$LIBPNG_VERSION.tar.gz"
-  LIBPNG_DIR="libpng-$LIBPNG_VERSION"
+  LIBPNG_FILE="libpng-1.6.25.tar.gz"
+  LIBPNG_DIR="libpng-1.6.25"
   # SSL cert used on libpng not recognized by heroku.
   # current version for compilation 
   LIBPNG_URL="
